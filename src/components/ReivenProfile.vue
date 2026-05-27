@@ -13,14 +13,14 @@ const achievements = [
     title: "Dean's Lister",
     description: "Recognized as a Dean's Lister for the first semester, achieving a General Weighted Average (GWA) of 1.51 through rigorous coursework and technical projects",
     gwa: '1.51',
-    image: '/buenapres.jpg', 
+    image: 'buenapres.jpg', 
     tags: ['ACADEMIC', 'HONORS']
   },
   {
     title: "President's Lister (Full Academic Scholar)",
     description: "Maintained high academic standing for the 1st Sem A.Y. 2024-2025, earning the status of Full Academic Scholar with a GWA of 1.48",
     gwa: '1.48',
-    image: '/buenapres2.jpg',
+    image: 'buenapres2.jpg',
     tags: ['ACADEMIC', 'HONORS']
   }
 ]

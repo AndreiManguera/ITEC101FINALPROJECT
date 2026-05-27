@@ -1,13 +1,3 @@
-Here is the fully optimized and completely responsive version for your team component (TeamSection.vue).
-
-Key Mobile Enhancements Made:
-Layout Scaling (grid-cols-1 md:grid-cols-3): On mobile devices, the columns gracefully stack vertically. Once the screen size hits desktop view (md:), they seamlessly transform into a side-by-side 3-column layout.
-
-Controlled Click Behavior (scale-105 vs scale-110): On phones, using a high scale-110 click zoom can break past the screen boundaries and trigger accidental horizontal site wobbling. The scale has been dynamically tuned (scale-[1.03] md:scale-110) so it scales safely and cleanly on small portrait displays.
-
-Refined Micro-Padding: Reduced the text and box spacing on smaller screens (p-6 sm:p-8 md:p-10) so the card layout looks perfectly centered and doesn't squish elements tightly against the phone's edges.
-
-HTML
 <script setup>
 import { ref } from 'vue'
 

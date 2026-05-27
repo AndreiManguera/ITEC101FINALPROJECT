@@ -13,14 +13,14 @@ const achievements = [
     title: "President's Lister",
     description: "Recognized as a President's Lister for the first semester, achieving a General Weighted Average (GWA) of 1.33 through rigorous coursework and technical projects",
     gwa: '1.33',
-    image: '/dreipres.jpg', 
+    image: 'dreipres.jpg', 
     tags: ['ACADEMIC', 'HONORS']
   },
   {
     title: "Dean's Lister (Academic Scholar)",
     description: "Maintained high academic standing for the 1st Sem A.Y. 2024-2025, earning the status of Partial Academic Scholar with a GWA of 1.51",
     gwa: '1.51',
-    image: '/dreidean.jpg',
+    image: 'dreidean.jpg',
     tags: ['ACADEMIC', 'HONORS']
   }
 ]
